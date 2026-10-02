@@ -1,0 +1,60 @@
+import { ToolItem } from '../types';
+
+export const TOOLS_CONFIG: ToolItem[] = [
+  {
+    id: 'youtube-title-generator',
+    title: 'مولد عناوين YouTube',
+    shortDesc: 'أنشئ عناوين جذابة ومحسوبة لزيادة المشاهدات والنقر (CTR)',
+    status: 'active',
+    icon: 'Heading',
+    badge: 'متاح الآن',
+  },
+  {
+    id: 'youtube-description-generator',
+    title: 'مولد وصف YouTube',
+    shortDesc: 'صياغة وصف احترافي متوافق مع خوارزميات SEO وروابط الفيديو',
+    status: 'coming_soon',
+    icon: 'FileText',
+    badge: 'قريباً',
+  },
+  {
+    id: 'youtube-content-ideas',
+    title: 'مولد أفكار محتوى',
+    shortDesc: 'أفكار زوايا تصوير ومواضيع فيديوهات تهم جمهورك المستهدف',
+    status: 'coming_soon',
+    icon: 'Lightbulb',
+    badge: 'قريباً',
+  },
+  {
+    id: 'youtube-shorts-ideas',
+    title: 'مولد أفكار YouTube Shorts',
+    shortDesc: 'أفكار مقاطع قصيرة سريعة الانتشار ومحفزة للتفاعل',
+    status: 'coming_soon',
+    icon: 'Sparkles',
+    badge: 'قريباً',
+  },
+  {
+    id: 'youtube-hooks-generator',
+    title: 'مولد هوكات ومقدمات (Hooks)',
+    shortDesc: 'مقدمات قوية لأول 5 ثوانٍ لمنع المشاهد من مغادرة الفيديو',
+    status: 'coming_soon',
+    icon: 'Anchor',
+    badge: 'قريباً',
+  },
+  {
+    id: 'youtube-tags-generator',
+    title: 'مولد كلمات مفتاحية وTags',
+    shortDesc: 'أفضل الوسوم والكلمات الدلالية لرفع ترتيب الفيديو في البحث',
+    status: 'coming_soon',
+    icon: 'Tag',
+    badge: 'قريباً',
+  },
+  {
+    id: 'youtube-script-generator',
+    title: 'مولد سكربت YouTube',
+    shortDesc: 'هيكلة سيناريو كامل ومفصل مع نقاط التحدث وتوزيع الوقت',
+    status: 'coming_soon',
+    icon: 'ScrollText',
+    badge: 'قريباً',
+  },
+];

@@ -1,0 +1,6 @@
+{
+  "name": "Te-ban AI Tools",
+  "description": "أدوات ذكاء اصطناعي متخصصة ومجانية لصناع محتوى يوتيوب - مولد عناوين YouTube بالذكاء الاصطناعي",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
